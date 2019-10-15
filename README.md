@@ -1,2 +1,2 @@
 # ansible
-Ansible Playbooks and Syntax
+Ansible Playbooks and Syntax Guide
