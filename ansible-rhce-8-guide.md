@@ -22,6 +22,17 @@ dbserver02.example.com
 ~]$ ansible -i /opt/ansible/hosts webservers -m ping
 ```
 - **Create a configuration File**
+```
+~]$ cp /etc/ansible/ansible.cfg   /opt/ansible/
+
+/etc/ansible/ansible.cfg          # Default Location
+```
+Configuration Locations (In Order Processed):
+
+1. ANSIBLE_CONFIG (Environment Variable)
+2. ansible.cfg file in current directory.
+3. ansible.cfg file in home directory.
+4. ansible.cfg file in default location.
 
 
 ## Understand core components of Ansible
