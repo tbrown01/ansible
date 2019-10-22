@@ -4,11 +4,11 @@ This guide will cover the RHCE 8 Exam Objectives which focuses heavily on Ansibl
 
 ## Install and Configure an Ansible Control Node
 
-- Install required packages
+- **Install Required Packages**
 ```
 ~]$ yum install -y ansible
 ```
-- Create a static host inventory file
+- **Create a Static Host Inventory File**
 ```
 ~]$ vim ansible-playbook -i /opt/ansible/hosts
 
@@ -21,7 +21,7 @@ dbserver02.example.com
 
 ~]$ ansible -i /opt/ansible/hosts webservers -m ping
 ```
-- Create a configuration file
+- **Create a configuration File**
 
 
 ## Understand core components of Ansible
