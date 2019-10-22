@@ -37,19 +37,25 @@ Configuration Locations (In Order Processed):
 
 ## Understand core components of Ansible
 
-- Inventories
+- **Inventories**
 An inventory is a list of hosts that Ansible manges.
 ```
 ~]$ vim /etc/ansible/hosts                    # Default Location
 
 ~]$ ansible-playbook -i /opt/ansible/hosts   # CLI Specified Location
 ```
-- Modules
-- Variables
-- Facts
-- Plays
-- Playbooks
-- Configuration files
+- **Modules**
+Ansible ships with a number of modules (called the ‘module library’) that can be executed directly on remote hosts or through Playbooks.
+```
+~]$ ansible-doc <modue_name>          # Documentation Availabe for Each Module
+```
+More Information: https://www.github.com/tbrown01/ansible/1-ansible-rhce8-modules.md
+
+- **Variables**
+- **Facts**
+- **Plays**
+- **Playbooks**
+- **Configuration files**
 
 ## Configure Ansible managed nodes
 
