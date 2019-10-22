@@ -18,9 +18,9 @@ This guide will cover the RHCE 8 Exam Objectives which focuses heavily on Ansibl
 - Inventories
 An inventory is a list of hosts that Ansible manges.
 ```
-~]$ vim /etc/ansible/hosts			            # Default Location
+~]$ vim /etc/ansible/hosts                    # Default Location
 
-~]$ ansible-playbook -i /opt/ansible/hosts		# CLI Specified Location
+~]$ ansible-playbook -i /opt/ansible/hosts   # CLI Specified Location
 ```
 - Modules
 - Variables
