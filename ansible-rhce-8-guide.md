@@ -38,7 +38,7 @@ Configuration Locations (In Order Processed):
 ## Understand core components of Ansible
 
 - **Inventories**
-An inventory is a list of hosts that Ansible manges.
+An inventory is a list of hosts that Ansible manages.
 ```
 ~]$ vim /etc/ansible/hosts                    # Default Location
 
@@ -52,6 +52,7 @@ Ansible ships with a number of modules (called the ‘module library’) that ca
 More Information: https://www.github.com/tbrown01/ansible/1-ansible-rhce8-modules.md
 
 - **Variables**
+
 - **Facts**
 - **Plays**
 - **Playbooks**
