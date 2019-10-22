@@ -9,7 +9,18 @@ This guide will cover the RHCE 8 Exam Objectives which focuses heavily on Ansibl
 ~]$ yum install -y ansible
 ```
 - Create a static host inventory file
+```
+~]$ vim ansible-playbook -i /opt/ansible/hosts
 
+[webservers]
+webserver[01:99].example.com
+
+[dbservers]
+dbserver01.example.com
+dbserver02.example.com
+
+~]$ ansible -i /opt/ansible/hosts webservers -m ping
+```
 - Create a configuration file
 
 
